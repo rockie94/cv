@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  .job-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+  }
+
+  .big-icon {
+    transform: scale(2);
+  }
+
+  .cert-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-detail p:first-child {
+    flex: 0 0 50px;
+  }
+
+  .project-time {
+    display: flex;
+    padding: 8px 5px;
+  }
+
+  .y2021 {
+    flex-shrink: 1;
+    padding: 5px 8px;
+    border-radius: 50px;
+  }
+}

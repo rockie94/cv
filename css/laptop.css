@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #868e96;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+  color: #343a40;
+}
+
+.icon-blue {
+  color: #339af0;
+}
+
+/* BANNER/////////////////////////////////// */
+
+.banner {
+  height: 500px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/banner.jpg);
+  background-size: cover;
+  background-position: top;
+  color: #dee2e6;
+
+  position: relative;
+}
+
+.banner-name {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.banner-name h1 {
+  font-size: 42px;
+  color: #f8f9fa;
+}
+
+/* NAVBAR/////////////////////////////////  */
+
+.nav {
+  position: relative;
+}
+.nav a {
+  text-decoration: none;
+  color: #868e96;
+}
+
+.nav-item {
+  border-left: 1px solid #dee2e6;
+}
+
+.nav-item:last-child {
+  border-right: 1px solid #dee2e6;
+}
+
+.avatar-space {
+  padding: 0 150px;
+}
+
+.avatar {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url(../images/avatar.jpg);
+  background-size: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* ABOUT///////////////////////////////////// */
+
+/* .about {
+  background-color: #dee2e6;
+} */
+.target {
+  background-color: #f8f9fa;
+}
+
+.info {
+  background-color: #f1f3f5;
+}
+
+.about ul {
+  list-style: none;
+}
+
+/* JOB DETAIL/////////////////////////////// */
+
+.job-detail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: 0.8fr 0.8fr; */
+  gap: 24px;
+}
+
+.big-icon {
+  transform: scale(3);
+}
+
+.med-icon {
+  transform: scale(2);
+  color: #339af0;
+}
+
+.ul-job-detail li {
+  list-style: none;
+}
+
+.ul-job-title li::marker {
+  color: #339af0;
+}
+
+.hientai {
+  background-color: #228be6;
+  color: #fff;
+  padding: 2px 16px;
+  border-radius: 8px;
+}
+
+/* hobby */
+/* .hobby-icon {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+} */
+
+/* circle around icon */
+.circle {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #339af0;
+  border-radius: 50%;
+  position: relative;
+}
+/* div to contain icon. To center div-icon inside circle */
+.icon-div {
+  display: block;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* language */
+
+.lang-text {
+  grid-column: 1/-1;
+}
+.line-blue {
+  border-bottom: 3px solid #228be6;
+}
+.line-gray {
+  border-bottom: 3px solid #ced4da;
+}
+
+/* CERTIFICATE///////////////////////////// */
+
+.certificate {
+  background-color: #f8f9fa;
+  padding: 48px;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.certificate img {
+  max-width: 250px;
+  object-fit: contain;
+}
+
+.cert-web {
+  border-bottom: 1px solid #fcc419;
+}
+
+.cert-java {
+  border-left: 1px solid #fcc419;
+  border-bottom: 1px solid #fcc419;
+}
+
+/* PROJECT////////////////////////////////// */
+
+.y2021 {
+  background-color: #228be6;
+  color: #fff;
+  padding: 5px 18px;
+  border-radius: 50px;
+}
+
+.project-item {
+  flex: 0 0 auto;
+  width: 32%;
+}
+
+.project-detail {
+  border: 1px solid #dee2e6;
+  padding: 0 10px;
+}
+
+/* set width for "Mo ta, Nhiem vu, Cong nghe" to align tab///*/
+.project-detail p:first-child {
+  flex: 0 0 100px;
+}
+
+/* FOOTER//////////////////////////////// */
+
+footer {
+  background-color: #f8f9fa;
+}

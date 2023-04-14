@@ -1,0 +1,46 @@
+@media (max-width: 576px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  .job-detail {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+  }
+
+  .big-icon {
+    transform: scale(2);
+  }
+
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cert-java {
+    border-left: none;
+    border-bottom: 1px solid #fcc419;
+  }
+
+  .project-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-item {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .project-time {
+    display: inline-block;
+  }
+}
