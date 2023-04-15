@@ -43,4 +43,9 @@
   .project-time {
     display: inline-block;
   }
+  
+  .project-icon {
+    display: flex !important;
+    flex-direction: column !important;
+  }
 }
