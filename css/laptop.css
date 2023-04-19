@@ -188,7 +188,7 @@ h6 {
 .cert-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto auto;
 }
 
 .certificate img {
@@ -197,12 +197,23 @@ h6 {
 }
 
 .cert-web {
-  border-bottom: 1px solid #fcc419;
+  /* border-bottom: 1px solid #fcc419; */
+  margin-bottom: 16px;
+  padding-right: 16px;
 }
 
 .cert-java {
   border-left: 1px solid #fcc419;
-  border-bottom: 1px solid #fcc419;
+  /* border-bottom: 1px solid #fcc419; */
+  flex: 0 1 auto;
+  margin-bottom: 16px;
+  padding-left: 16px;
+}
+.cert-data {
+  grid-column: 1/-1;
+  border-top: 1px solid #fcc419;
+  flex: 0 0 auto;
+  padding-top: 32px;
 }
 
 /* PROJECT////////////////////////////////// */
