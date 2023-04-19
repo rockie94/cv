@@ -25,9 +25,19 @@
     grid-template-columns: 1fr;
   }
 
+  .cert-web {
+    border-bottom: 1px solid #fcc419;
+  }
+
   .cert-java {
     border-left: none;
     border-bottom: 1px solid #fcc419;
+    padding-left: 0;
+  }
+
+  .cert-data {
+    border-top: none;
+    padding-top: 0;
   }
 
   .project-div {
@@ -41,10 +51,9 @@
   }
 
   .project-time {
-    display: flex !important;
-    flex-direction: column !important;
+    display: flex;
+    flex-direction: column;
   }
-  
   .project-icon {
     display: flex !important;
     flex-direction: column !important;
